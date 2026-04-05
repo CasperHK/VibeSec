@@ -33,11 +33,11 @@ VibeSec 是一個為 2026 年資安專家打造的極速、極簡、極致安全
 
 
 ## 🛠️ 技術棧 (The Stack)
-Runtime: Bun (Fast all-in-one JavaScript runtime)
-Backend: ElysiaJS (Ergonomic Framework for Humans)
-Frontend: SolidStart (The most performant SSR framework)
-Type System: ArkType (The runtime type system that's 100x faster than Zod)
-Communication: Eden Treaty (Fully type-safe client)
+* Runtime: Bun (Fast all-in-one JavaScript runtime)
+* Backend: ElysiaJS (Ergonomic Framework for Humans)
+* Frontend: SolidStart (The most performant SSR framework)
+* Type System: ArkType (The runtime type system that's 100x faster than Zod)
+* Communication: Eden Treaty (Fully type-safe client)
 
 
 
@@ -45,32 +45,32 @@ Communication: Eden Treaty (Fully type-safe client)
 
 1. 複製專案
 
-```bash
-git clone https://github.com
-cd vibesec
-```
+    ```bash
+    git clone https://github.com
+    cd vibesec
+    ```
 
 
 2. 安裝依賴 (Powered by Bun)
 
-```bash
-bun install
-```
+    ```bash
+    bun install
+    ```
 
 
 3. 開發模式
 
-```bash
-bun dev
-```
+    ```bash
+    bun dev
+    ```
 
 
 4. 生產環境部署 (Docker)
 
-```bash
-docker build -t vibesec .
-docker run -p 3000:3000 vibesec
-```
+    ```bash
+    docker build -t vibesec .
+    docker run -p 3000:3000 vibesec
+    ```
 
 
 
